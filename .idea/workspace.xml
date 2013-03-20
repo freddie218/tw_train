@@ -22,7 +22,7 @@
       <file leaf-file-name="train_tw.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/train_tw.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="9" selection-start="451" selection-end="451" vertical-scroll-proportion="0.43913713">
+            <state line="38" column="70" selection-start="1159" selection-end="1159" vertical-scroll-proportion="0.23882897">
               <folding />
             </state>
           </provider>
@@ -99,6 +99,13 @@
     <property name="options.searchVisible" value="true" />
   </component>
   <component name="RunManager">
+    <configuration default="true" type="JavascriptDebugSession" factoryName="Local">
+      <JSDebuggerConfigurationSettings>
+        <option name="engineId" />
+        <option name="fileUrl" />
+      </JSDebuggerConfigurationSettings>
+      <method />
+    </configuration>
     <list size="0" />
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
@@ -205,7 +212,7 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/train_tw.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="9" selection-start="451" selection-end="451" vertical-scroll-proportion="0.43913713">
+        <state line="38" column="70" selection-start="1159" selection-end="1159" vertical-scroll-proportion="0.23882897">
           <folding />
         </state>
       </provider>
