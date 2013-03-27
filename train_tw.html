@@ -2,6 +2,7 @@
 <html>
 <head>
     <title>welcome to ThoughtWorks train</title>
+    <meta charset="UTF-8">
     <!-- <script src="http://code.jquery.com/jquery.js"></script>
          <link href="css/bootstrap.min.css" rel="stylesheet" media="all" type="text/css"> -->
     <style type="text/css">
@@ -10,7 +11,7 @@
             margin: 0;
         }
         .header {
-            height: 100px;
+            height: 80px;
             background-color: #D45354;
             line-height: 100px;
             font-family: 'Helvetica Neue', Helvetica, Arial, 'Hiragino Sans GB', sans-serif;
@@ -22,13 +23,13 @@
             font-size: 35px;
         }
         .introduction {
-            height: 600px;
-            background-color: #F2C777;
+            height: 500px;
+            background-color: #6D8A45;
             box-shadow: inset 0px 6px 6px -6px rgba(0, 0, 0, 0.6)
         }
         .coaches {
             height: 400px;
-            background-color: #F24738;
+            background-color: #FFF;
             box-shadow: inset 0px 8px 8px -6px rgba(0, 0, 0, 0.6)
         }
         .price {
@@ -44,6 +45,32 @@
             width: 1024px;
         }
 
+        .introduction-body {
+            margin: 0 auto;
+            width: 1024px;
+            height: 450px;
+            background: url("images/ThoughtTrain.png") no-repeat;
+            background-position: 0px 30px;
+            /*background-size: 120%;*/
+        }
+
+        .introduction-text {
+            float: right;
+            font-family: 'Helvetica Neue', Helvetica, Arial, 'Hiragino Sans GB', sans-serif;
+            width: 150px;
+            height: 240px;
+            margin: 120px 80px 0px 10px;
+        }
+
+        .introduction-photo {
+            float: left;
+            width: 460px;
+            height: 240px;
+            margin: 115px 0px 0px 265px;
+            background: url("images/devbootwhat-header-pic.jpg") no-repeat;
+            background-size: 100%;
+        }
+
     </style>
 </head>
     <body>
@@ -54,7 +81,14 @@
                 </div>
             </section>
             <section class="introduction">
-                <div class="body-width">
+                <div class="introduction-body">
+                    <div class="introduction-photo">
+                    </div>
+
+                    <div class="introduction-text">
+                        人生即是旅程，伴随着欢笑，汗水，成功，迷茫，最终到达也许并不那么完美却幸福的终点。
+                    </div>
+
                 </div>
             </section>
             <section class="coaches">
