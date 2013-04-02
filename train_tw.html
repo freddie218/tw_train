@@ -8,75 +8,125 @@
     body, html {
       padding: 0;
       margin: 0;
+      font-family: 'Helvetica Neue', Helvetica, Arial, 'Hiragino Sans GB', sans-serif;
+      background-color: #55bdad;
+      position: relative;
+    }
+
+    ul, li{
+      list-style: none;
+      margin: 0;
+      padding: 0;
     }
 
     .header {
-      height: 80px;
-      background-color: #D45354;
-      line-height: 100px;
-      font-family: 'Helvetica Neue', Helvetica, Arial, 'Hiragino Sans GB', sans-serif;
-      color: #CCC;
+      height: 65px;
+      background-color: rgba(0, 0, 0, 0.6);
+      line-height: 65px;
+      color: #fff;
     }
 
     .header h1 {
       margin: 0;
       padding: 0;
-      font-size: 35px;
+      font-size: 32px;
+    }
+
+    h2 {
+      font-size: 23px;
     }
 
     .introduction {
       height: 500px;
-      background-color: #6D8A45;
-      box-shadow: inset 0px 6px 6px -6px rgba(0, 0, 0, 0.6)
+      background-color: #55bdad;
+      padding-top: 30px;
     }
 
-    .coaches {
-      height: 400px;
-      background-color: #FFF;
-      box-shadow: inset 0px 8px 8px -6px rgba(0, 0, 0, 0.6)
+    .courses {
+      color: #fff;
+      margin-top: 30px;
     }
 
-    .price {
-      height: 300px;
-      background-color: #024959;
+    .courses li {
+      float: left;
+      width: 400px;
+      margin: 0 50px;
+      padding: 20px;
+      height: 200px;
+    }
+
+    .courses h2 {
+      background: url(images/zhanpai.png) no-repeat;
+      background-size: 340px 100px;
+      padding: 55px 45px 20px 45px;
+    }
+
+    .courses p {
+      padding-left: 30px;
     }
 
     .footer {
-      height: 80px;
-      background-color: #BF2A2A;
+      height: 100px;
+      background-color: #3d3d3d;
+      box-shadow: inset 0px 10px 10px -10px rgba(0, 0, 0, 0.9);
+      position: absolute;
+      bottom: 0;
+      width: 100%;
+    }
+
+    .content {
+      padding-bottom: 180px;
     }
 
     .body-width {
       margin: 0 auto;
-      width: 1024px;
+      width: 1090px;
     }
 
     .introduction-body {
       margin: 0 auto;
-      width: 1024px;
       height: 450px;
-      background: url("images/ThoughtTrain.png") no-repeat;
-      background-position: 0px 30px;
-      /*background-size: 120%;*/
+      background: url("images/train_without_bg.png") no-repeat;
+      background-position: -93px 30px;
+      background-size: 120%;
     }
 
     .introduction-text {
       float: right;
-      font-family: 'Helvetica Neue', Helvetica, Arial, 'Hiragino Sans GB', sans-serif;
       width: 150px;
-      height: 240px;
-      margin: 120px 80px 0px 10px;
+      height: 197px;
+      margin: 94px 130px 0 0;
+      color: white;
+      padding: 20px;
+      border-radius: 5px;
+      background-color: rgba(100, 100, 100, 0.5);
     }
 
     .introduction-photo {
       float: left;
-      width: 460px;
-      height: 240px;
-      margin: 115px 0px 0px 265px;
+      width: 529px;
+      height: 287px;
+      margin: 86px 0px 0px 189px;
       background: url("images/devbootwhat-header-pic.jpg") no-repeat;
-      background-size: 100%;
+      background-size: 128%;
+      border-radius: 5px;
+      box-shadow: inset 0 0 7px white;
     }
 
+    .clearfix {
+      *zoom: 1;
+    }
+
+    .clearfix:before,
+    .clearfix:after {
+      display: table;
+      line-height: 0;
+      content: "";
+    }
+
+    .clearfix:after {
+      clear: both;
+    }
   </style>
 </head>
 <body>
@@ -97,18 +147,56 @@
 
       </div>
     </section>
-    <section class="coaches">
+    <section class="courses">
       <div class="body-width">
-      </div>
-    </section>
-    <section class="price">
-      <div class="body-width">
-      </div>
-    </section>
-    <section class="footer">
-      <div class="body-width">
+        <ul class="clearfix">
+          <li>
+            <h2>
+              Ruby on Rails
+            </h2>
+            <p>
+              用当下最流行的敏捷Web开发框架搭建网站
+            </p>
+          </li>
+          <li>
+            <h2>
+              HTML5 & CSS3
+            </h2>
+            <p>
+              打造简洁、美观并能自适应各种设备的网站页面
+            </p>
+          </li>
+          <li>
+            <h2>
+              JavaScript and More
+            </h2>
+            <p>
+              应用更多的前端技术及框架让网站获得更多的页面交互能力
+            </p>
+          </li>
+          <li>
+            <h2>
+              Test Driven Development
+            </h2>
+            <p>
+              通过测试驱动，开发出更高质量，更可维护的代码
+            </p>
+          </li>
+          <li>
+            <h2>
+              Agile Development
+            </h2>
+            <p>
+              如何采用更好的过程实践来控制项目的成本及交付价值，跟踪开发进度
+            </p>
+          </li>
+        </ul>
       </div>
     </section>
   </div>
+  <section class="footer">
+    <div class="body-width">
+    </div>
+  </section>
 </body>
 </html>
